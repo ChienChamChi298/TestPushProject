@@ -1,0 +1,5 @@
+#Ignore 
+chromedriver.exe
+.vscode/ 
+bin/
+obj/
