@@ -31,7 +31,7 @@ namespace Page
         private FinalCartPage finalCart;
 
         [Fact] 
-        public void TestThreadLogin()
+        public void CheckProcessLoginSuccessfully_1()
         {   
             basePage = new BasePage();
             homePage = basePage.SetUp();  
@@ -56,7 +56,7 @@ namespace Page
         } 
 
         [Fact] 
-        public void TestThreadBuyTShirtSuccessfully() {
+        public void CheckProcessPaymentByCheckSuccessfully_2() { 
             basePage = new BasePage(); 
             homePage = basePage.SetUp();  
             authEmail = homePage.ClickSignIn();   
